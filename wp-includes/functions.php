@@ -3071,6 +3071,8 @@ function wp_get_mime_types() {
 			'class'                        => 'application/java',
 			'tar'                          => 'application/x-tar',
 			'zip'                          => 'application/zip',
+			//add by super 20200520 解决不允许rar文件上传
+			'rar' 						   => 'application/rar', 
 			'gz|gzip'                      => 'application/x-gzip',
 			'rar'                          => 'application/rar',
 			'7z'                           => 'application/x-7z-compressed',
