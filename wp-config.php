@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'digiwinerp' );
 
 /** MySQL数据库用户名 */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'digiwinerp' );
 
 /** MySQL数据库密码 */
-define( 'DB_PASSWORD', '123456' );
+define( 'DB_PASSWORD', 'digiwinerp2020' );
 
 /** MySQL主机 */
 define( 'DB_HOST', 'localhost' );
@@ -36,7 +36,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** 数据库整理类型。如不确定请勿更改 */
 define( 'DB_COLLATE', '' );
-//add by super 20200520 系统跳过上传文件的类型检测
+/*//add by super 20200520 系统跳过上传文件的类型检测*/
 define('ALLOW_UNFILTERED_UPLOADS',true);
 /**#@+
  * 身份认证密钥与盐。
