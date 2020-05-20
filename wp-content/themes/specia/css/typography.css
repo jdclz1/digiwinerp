@@ -340,3 +340,6 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
+su-table td{
+    padding: 0px 10px;
+}
