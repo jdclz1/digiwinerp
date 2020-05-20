@@ -291,6 +291,9 @@ table th {
     padding: 10px 10px;
     color: #fff; 
 }
+su-table td{
+    padding: 0px 10px;
+}
 table td { border: 1px solid #e8e7e7; padding: 8px 10px;  }
 
 /*Definition Lists*/
@@ -339,7 +342,4 @@ label {
     width: 100%;
     margin-bottom: 5px;
     font-weight: bold;
-}
-su-table td{
-    padding: 0px 10px;
 }
