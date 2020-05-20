@@ -36,7 +36,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** 数据库整理类型。如不确定请勿更改 */
 define( 'DB_COLLATE', '' );
-
+//add by super 20200520 系统跳过上传文件的类型检测
+define('ALLOW_UNFILTERED_UPLOADS',true);
 /**#@+
  * 身份认证密钥与盐。
  *
@@ -77,8 +78,6 @@ $table_prefix = 'dw_';
  */
 define('WP_DEBUG', false);
 
-//add by super 20200520 系统跳过上传文件的类型检测
-define('ALLOW_UNFILTERED_UPLOADS',true);
 
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
