@@ -78,7 +78,7 @@ $table_prefix = 'dw_';
 define('WP_DEBUG', false);
 
 //add by super 20200520 系统跳过上传文件的类型检测
-define(‘ALLOW_UNFILTERED_UPLOADS’,true);
+define('ALLOW_UNFILTERED_UPLOADS',true);
 
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
