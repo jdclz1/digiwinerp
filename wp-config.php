@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'digiwinerp' );
 
 /** MySQL数据库用户名 */
-define( 'DB_USER', 'digiwinerp' );
+define( 'DB_USER', 'root' );
 
 /** MySQL数据库密码 */
-define( 'DB_PASSWORD', 'digiwinerp2020' );
+define( 'DB_PASSWORD', '123456' );
 
 /** MySQL主机 */
 define( 'DB_HOST', 'localhost' );
@@ -76,6 +76,9 @@ $table_prefix = 'dw_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+
+//add by super 20200520 系统跳过上传文件的类型检测
+define(‘ALLOW_UNFILTERED_UPLOADS’,true);
 
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
