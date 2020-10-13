@@ -134,3 +134,21 @@ add_filter( 'wp_get_attachment_image_attributes', function( $attr )
 
     return $attr;
 } );
+
+/**
+ * 登录出后自动跳转到主页  add by super 20200607
+ */
+add_action('wp_logout','auto_redirect_after_logout');   
+function auto_redirect_after_logout(){   
+  wp_redirect( home_url() );   
+  exit();   
+}
+
+/**
+ * 如果是管理员就重定向到管理员面板，当然，如果是普通用户则跳转到首页 add by super 20200607
+ */
+function soi_login_redirect($redirect_to, $request, $user)   
+{   
+    return (is_array($user->roles) && in_array('administrator', $user->roles)) ? admin_url() : site_url();   
+}    
+add_filter('login_redirect', 'soi_login_redirect', 10, 3); 

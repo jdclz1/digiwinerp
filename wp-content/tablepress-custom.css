@@ -1,0 +1,61 @@
+/*
+.tablepress-id-4 .column-1 {
+	padding-left: 20px;
+}
+
+.tablepress-id-4 .row-7 td,
+.row-2 td,
+.row-13 td,
+.row-18 td,
+.row-28 td,
+.row-31 td,
+.row-33 td,
+.row-36 td,
+.row-46 td,
+.row-50 td,
+.row-55 td,
+.row-64 td,
+.row-68 td,
+.row-70 td,
+.row-73 td,
+.row-79 td,
+.row-81 td,
+.row-82 td,
+.row-85 td,
+.row-89 td,
+.row-91 td,
+.row-97 td,
+.row-99 td,
+.row-113 td,
+.row-117 td,
+.row-120 td,
+.row-126 td,
+.row-129 td,
+.row-132 td,
+.row-137 td,
+.row-138 td,
+.row-139 td {
+	color: Gray;
+	font-size: 80%;
+	padding-left: 0 !important;
+}
+*/
+.tablepress-id-4 .column-4,
+.column-5,
+.column-6,
+.column-7 {
+	width: 120px;
+}
+
+.tablepress-id-4 .column-2:hover {
+	font-size: 130%; /*text-decoration: underline;*/
+}
+
+.tablepress-id-4 .column-2 {
+	width: 350px;
+}
+
+.tablepress-id-4 thead th,
+.tablepress-id-4 tfoot th {
+	background-color: LightSteelBlue;
+}
